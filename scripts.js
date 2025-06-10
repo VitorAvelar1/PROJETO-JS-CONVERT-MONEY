@@ -1,7 +1,7 @@
 const convertButton = document.querySelector(".convert-button")
 const selectCurrency = document.querySelector(".currency-dolar-euro")
 
-function convertValues() {
+async function convertValues() {
     const inputCurrency = document.querySelector(".input-value").value
     const currencyConvert = document.querySelector(".p-Valor-convert")
     const curencyConverted = document.querySelector(".p-Valor")
